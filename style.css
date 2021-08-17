@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background: url('bckIm.jpg') center center;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    min-width: 400px;
+    text-align: center;
+}
+
+.name {
+    text-transform: uppercase;
+    font-size: 70px;
+    text-shadow: 1px 2px 1px gray;
+}
+
+
+/* For mobile view */
+
+@media screen and (max-width: 768px) {
+    .name {
+        font-size: 41px;
+        text-shadow: 1px 1px 3px white;
+    }
+}
